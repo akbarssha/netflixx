@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className='mainnav'>
         <div className="left-nav">
-            <img src={logo} width={200}/>
+            <img src={logo} width={200} alt='lgo'/>
             <ul>
               <li>Home</li>
               <li>TV Shows</li>
@@ -18,9 +18,9 @@ export default function Navbar() {
             </ul>
         </div>
         <div className="right-nav">
-            <img src={search} width={28} className='icons'/>
+            <img src={search} width={28} className='icons' alt='icn'/>
             <p>Children</p>
-            <img src={caret} width={28} className='icons'/>
+            <img src={caret} width={28} className='icons' alt='crt'/>
         </div>
       
      

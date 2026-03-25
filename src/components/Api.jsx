@@ -1,6 +1,6 @@
-import React from 'react'
+
 import axios from "axios";
-import { useEffect, useState } from "react";
+
 
 const API_KEY = "49e8f79e76486fcbad0ded38ad78cfa2";
 const BASE_URL = "https://api.themoviedb.org/3";
