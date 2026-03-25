@@ -1,0 +1,23 @@
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;        /* enables horizontal scrolling */
+  overflow-y: hidden;
+  padding: 20px 0;
+  scrollbar-width: thin;           /* Firefox */
+  scrollbar-color: #888 #222;      /* Firefox */
+}
+.row-poster {
+  max-height: 180px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+.row-poster:hover {
+  transform: scale(1.08);    /* hover zoom */
+}
